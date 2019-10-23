@@ -2,10 +2,18 @@
 
 //Complete this algo
 const isLoop = (linkedlist) => {
- return false
+ const head = linkedlist.head;
+
 };
 
-
+const iterate = (linkedlist) => {
+  const tail = false;
+  if (linkedlist.next === linkedlist.tail) {
+    return linkedlist.next
+  } else if (linkedlist.next in obj) {
+    return linkedlist.next
+  }
+}
 /*
 EXTRA CREDIT:
 
